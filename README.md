@@ -1,39 +1,35 @@
-# Speech-to-Text and Text-to-Speech using IBM Watson
+# Speech-to-Text (STT) and Text-to-Speech (TTS) Project using IBM Watson
 
 ## Introduction
 
-This project demonstrates how to use AI technologies for **Speech-to-Text (STT)** and **Text-to-Speech (TTS)** conversion using IBM Watson services. AI plays a crucial role in understanding human speech and converting it into written text or generating natural-sounding speech from written input.
+This project demonstrates how to use **IBM Watson** services for converting speech to text (STT) and text to speech (TTS). These services allow developers to create applications that interact with users through natural language.
 
-## What is STT and TTS?
+## Project Overview
 
-### 1. **Speech-to-Text (STT)**:
-   STT is the process of converting spoken words into written text.  
-   AI helps in recognizing sound patterns and analyzing audio signals to convert them into textual words.
+The project includes two main functionalities:
+1. **Speech-to-Text (STT)**: Converts spoken language into written text.
+2. **Text-to-Speech (TTS)**: Converts written text into spoken language.
 
-### 2. **Text-to-Speech (TTS)**:
-   TTS is the process of converting written text into spoken words.  
-   AI is used to generate natural human-like speech that mimics how a real person would pronounce the text.
+## How AI is Used
 
-## Role of AI in STT and TTS
+### Speech-to-Text (STT)
+IBM Watson's **STT** uses advanced **Deep Learning** models that are designed to recognize speech patterns and convert them into text. The process involves two key models:
+1. **Acoustic Models**: Recognize and interpret sound patterns. These models analyze raw audio signals, converting them into phonetic symbols. IBM Watson uses **Recurrent Neural Networks (RNNs)** or **transformers** to handle this process.
+2. **Language Models**: Understand the context of spoken language and refine transcriptions. These models predict words and phrases based on sentence structure and context, using **n-gram** models or **neural networks** to improve transcription accuracy.
 
-AI relies on machine learning algorithms to process audio signals and analyze text. The models provided by IBM Watson are pre-trained on large datasets of speech and text, making them highly accurate and capable of understanding language and generating speech.
+### Text-to-Speech (TTS)
+For **TTS**, IBM Watson relies on neural network-based models to synthesize human-like speech. The two main components are:
+1. **Neural Networks for Speech Synthesis**: Watson uses deep learning techniques to generate natural-sounding speech, similar to **WaveNet** models.
+2. **Prosody and Phonetic Models**: Ensure the speech sounds smooth and natural by managing the intonation, rhythm, and timing.
 
-### Key Algorithms Used:
+## How IBM Simplifies the Process
 
-1. **Acoustic Models**:  
-   Used to recognize sound patterns and analyze frequencies.
-   
-2. **Language Models**:  
-   Help in understanding sentences and the linguistic context, improving the accuracy of converting speech to text or generating speech naturally from text.
+Instead of building these algorithms from scratch, **IBM Watson** provides easy-to-use **APIs** for both **STT** and **TTS**. This allows developers to quickly integrate speech recognition and synthesis capabilities into their applications without deep expertise in machine learning.
 
-## How IBM Watson Makes It Easy
+For more information on IBM Watson’s services, you can check the official [IBM Watson Documentation](https://cloud.ibm.com/docs/watson).
 
-Thanks to IBM Watson, developers no longer need to build these algorithms from scratch. IBM provides an **API** that allows easy access to these technologies without needing advanced expertise in machine learning. By simply inputting text or speech, the algorithms handle the conversion directly.
+## Project Files
 
-## How to Use the Project
+- You can find the code and outputs in the Jupyter notebook: [Text-to-Speech.ipynb](https://github.com/wojodd/IBM_TTS_STT).
 
-You can try out the simple project attached, which demonstrates how to convert text into speech using IBM Watson. The file contains a straightforward explanation and usage instructions and is available in **[Text-to-Speech.ipynb](#)**.
-
-## Conclusion
-
-This project is a basic introduction to how AI can be used in applications for text-to-speech and speech-to-text conversion. With IBM Watson's tools, we can easily develop these applications and integrate AI into our projects without complexity.
+This project serves as a simple demonstration of how to use IBM Watson's AI-powered services for converting speech to text and vice versa.
