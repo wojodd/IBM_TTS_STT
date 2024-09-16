@@ -30,6 +30,6 @@ For more information on IBM Watson’s services, you can check the official [IBM
 
 ## Project Files
 
-- You can find the code and outputs in the Jupyter notebook: [Text-to-Speech.ipynb](https://gitub.com/wojodd/IBM_TTS_STT/blob/main/TextToSpeech/Text-to-Speech.ipynb).
+- You can find the code and outputs in the Jupyter notebook: [Text-to-Speech.ipynb](https://github.com/wojodd/IBM_TTS_STT/blob/main/TextToSpeech/Text-to-Speech.ipynb).
 
 This project serves as a simple demonstration of how to use IBM Watson's AI-powered services for converting speech to text and vice versa.
